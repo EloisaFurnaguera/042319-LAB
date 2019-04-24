@@ -58,8 +58,11 @@ def last(input_list):
     'Mar'
 
     """
+    new = input_list[-1]
 
-    return []
+    return new
+
+last(['Jan', 'Feb', 'Mar'])
 
 
 def init(input_list):
@@ -71,8 +74,8 @@ def init(input_list):
     ['Jan', 'Feb']
 
     """
-
-    return []
+    new = input_list[:-1]
+    return new
 
 
 ##############################################################################
