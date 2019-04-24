@@ -31,6 +31,8 @@ def head(input_list):
     new = input_list[0]
     return [new]
 
+head(['Jan', 'Feb', 'Mar'])
+
 
 def tail(input_list):
     """Return all elements of the input list except the first.
@@ -41,8 +43,10 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
+    new = input_list[1:]
+    return new
 
-    return []
+tail(['Jan', 'Feb', 'Mar'])
 
 
 def last(input_list):
